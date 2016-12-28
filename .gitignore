@@ -1,12 +1,25 @@
 *.class
+*.log
+classes
+build
+CVS
+.springBeans
+build.sh
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Eclipse artifacts
+.project
 
-# Package Files #
+# STS Artifacts
+mvnw
+.mvn/
+mvnw.cmd
+
+# Maven artifacts
+.settings
+bin
+target
+.classpath
+
+# Package Files
 *.jar
 *.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
